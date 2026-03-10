@@ -61,8 +61,9 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 ## 🛠️ Tecnologías Utilizadas
 * **Core:** Python 3.12, Pandas, NumPy.
 * **ML:** Scikit-learn (Pipelines, Ensemble Methods).
-* **Viz:** Matplotlib, Seaborn (Custom Aineurolytics Palettes).
+* **Viz:** Matplotlib, Seaborn.
 * **Deployment:** Joblib.
 
 ---
+
 
