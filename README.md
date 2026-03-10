@@ -62,6 +62,41 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 2.  **Onboarding Crítico:** Reforzar la atención al cliente durante el primer trimestre de antigüedad.
 3.  **Despliegue Técnico:** Integrar el archivo `modelo_rf_churn_campeon.pkl` en el CRM de la compañía para automatizar las alertas.
 
+📂 4. Estructura del Repositorio
+El proyecto sigue una arquitectura de archivos organizada para garantizar la reproducibilidad y el orden de los activos de Aineurolytics:
+
+Plaintext
+telecom-x-churn-prediction/
+│
+├── assets/                 # Visualizaciones en alta resolución (Confusion Matrix, Feature Importance)
+├── data/                   # (Local) Directorio para el dataset tratado (.csv)
+├── .gitignore              # Configuración de archivos excluidos del control de versiones
+├── README.md               # Documentación ejecutiva y técnica del proyecto
+├── telecom_x_churn.ipynb   # Notebook principal: Preprocesamiento, Modelado y Evaluación
+└── requirements.txt        # Listado de dependencias para la reconstrucción del entorno
+⚙️ 5. Reproducibilidad
+Para clonar, instalar y ejecutar este proyecto en tu entorno local (Mac/Linux/Windows), sigue estos pasos:
+
+Clonar el repositorio:
+
+```Bash
+git clone https://github.com/eppursimuove9/telecom-x-churn-prediction.git
+cd telecom-x-churn-prediction
+```
+
+Crear un entorno virtual (opcional pero recomendado):
+
+```Bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Instalar dependencias:
+
+```Bash
+pip install -r requirements.txt
+```
+
 ## 🛠️ Tecnologías Utilizadas
 * **Core:** Python 3.12, Pandas, NumPy.
 * **ML:** Scikit-learn (Pipelines, Ensemble Methods).
@@ -69,6 +104,7 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
