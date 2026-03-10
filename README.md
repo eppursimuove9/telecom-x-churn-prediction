@@ -72,7 +72,7 @@ El proyecto sigue una arquitectura de archivos organizada para garantizar la rep
 ├── .gitignore              # Configuración de archivos excluidos del control de versiones
 ├── README.md               # Documentación ejecutiva y técnica del proyecto
 ├── requirements.txt        # Listado de dependencias para la reconstrucción del entorno
-└── telecom_x_churn.ipynb   # Notebook principal: Preprocesamiento, Modelado y Evaluación
+└── telecom_x_churn_prediction.ipynb   # Notebook principal: Preprocesamiento, Modelado y Evaluación
 ```
 
 ⚙️ 5. Reproducibilidad
@@ -105,6 +105,7 @@ pip install -r requirements.txt
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
