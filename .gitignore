@@ -1,0 +1,17 @@
+# Archivos del sistema Mac
+.DS_Store
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de Python y Notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# Datos y Modelos (Para no subir archivos pesados)
+*.csv
+*.pkl
+*.joblib
+data/
