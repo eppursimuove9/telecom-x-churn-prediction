@@ -24,8 +24,9 @@ Se diseñó un `ColumnTransformer` integrado en un `Pipeline` de Scikit-Learn qu
 ## 🤖 Modelado y Evaluación Comparativa
 Se contrastaron tres enfoques para identificar la mejor solución:
 1.  **Baseline (Dummy Classifier):** Punto de control para medir la inercia del mercado.
-2.  **Regresión Logística:** Modelo lineal para establecer una base de interpretabilidad.
-3.  **Random Forest (Modelo Campeón):** Seleccionado por su capacidad para capturar interacciones no lineales y su robustez frente al sobreajuste.
+2.  **Árbol de Decisión:** Primer modelo predictivo no lineal, utilizado para establecer una base de interpretabilidad lógica.
+3.  **Regresión Logística:** Modelo lineal para establecer una base de interpretabilidad.
+4.  **Random Forest (Modelo Campeón):** Seleccionado por su capacidad para capturar interacciones no lineales y su robustez frente al sobreajuste.
 
 ### Desempeño del Modelo Campeón:
 | Métrica | Resultado (Clase 1) | Impacto de Negocio |
@@ -65,5 +66,6 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 * **Deployment:** Joblib.
 
 ---
+
 
 
