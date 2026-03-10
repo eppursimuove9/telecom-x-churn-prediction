@@ -1,7 +1,6 @@
 # 📊 Telecom X – Predicción Estratégica de Evasión de Clientes (Churn)
 
 **Autor:** Alex Rojas Segovia  
-**Compañía:** Aineurolytics
 
 ---
 
@@ -66,3 +65,4 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 * **Deployment:** Joblib.
 
 ---
+
