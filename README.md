@@ -68,11 +68,11 @@ El proyecto sigue una arquitectura de archivos organizada para garantizar la rep
 ```telecom-x-churn-prediction/
 │
 ├── assets/                 # Visualizaciones en alta resolución (Confusion Matrix, Feature Importance)
-├── data/                   # (Local) Directorio para el dataset tratado (.csv)
+├── data                    # (Local) Directorio para el dataset tratado (.csv)
 ├── .gitignore              # Configuración de archivos excluidos del control de versiones
 ├── README.md               # Documentación ejecutiva y técnica del proyecto
-├── telecom_x_churn.ipynb   # Notebook principal: Preprocesamiento, Modelado y Evaluación
-└── requirements.txt        # Listado de dependencias para la reconstrucción del entorno
+├── requirements.txt        # Listado de dependencias para la reconstrucción del entorno
+└── telecom_x_churn.ipynb   # Notebook principal: Preprocesamiento, Modelado y Evaluación
 ```
 
 ⚙️ 5. Reproducibilidad
@@ -105,6 +105,7 @@ pip install -r requirements.txt
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
