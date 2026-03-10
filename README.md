@@ -66,7 +66,7 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 El proyecto sigue una arquitectura de archivos organizada para garantizar la reproducibilidad y el orden de los activos de Aineurolytics:
 
 Plaintext
-telecom-x-churn-prediction/
+```telecom-x-churn-prediction/
 │
 ├── assets/                 # Visualizaciones en alta resolución (Confusion Matrix, Feature Importance)
 ├── data/                   # (Local) Directorio para el dataset tratado (.csv)
@@ -74,6 +74,8 @@ telecom-x-churn-prediction/
 ├── README.md               # Documentación ejecutiva y técnica del proyecto
 ├── telecom_x_churn.ipynb   # Notebook principal: Preprocesamiento, Modelado y Evaluación
 └── requirements.txt        # Listado de dependencias para la reconstrucción del entorno
+```
+
 ⚙️ 5. Reproducibilidad
 Para clonar, instalar y ejecutar este proyecto en tu entorno local (Mac/Linux/Windows), sigue estos pasos:
 
@@ -104,6 +106,7 @@ pip install -r requirements.txt
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
