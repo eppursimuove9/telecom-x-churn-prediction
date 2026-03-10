@@ -1,5 +1,7 @@
 # 📊 Telecom X – Predicción Estratégica de Evasión de Clientes (Churn)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eppursimuove9/telecom-x-churn-prediction/blob/main/telecom_x_churn.ipynb)
+
 **Autor:** Alex Rojas Segovia  
 
 ---
@@ -66,6 +68,7 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
