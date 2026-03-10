@@ -2,7 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eppursimuove9/telecom-x-churn-prediction/blob/main/telecom_x_churn_prediction.ipynb)
 
-**Autor:** Alex Rojas Segovia  
+* LinkedIn: [Alex Rojas Segovia](https://www.linkedin.com/in/alexrojassegovia/)
+* Email: [Email](mailto:alexrojas8922@gmail.com)
 
 ---
 
@@ -68,6 +69,7 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
