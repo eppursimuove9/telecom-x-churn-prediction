@@ -65,7 +65,6 @@ El modelo **Random Forest** se consolida como la herramienta de mayor valor para
 📂 4. Estructura del Repositorio
 El proyecto sigue una arquitectura de archivos organizada para garantizar la reproducibilidad y el orden de los activos de Aineurolytics:
 
-Plaintext
 ```telecom-x-churn-prediction/
 │
 ├── assets/                 # Visualizaciones en alta resolución (Confusion Matrix, Feature Importance)
@@ -106,6 +105,7 @@ pip install -r requirements.txt
 * **Deployment:** Joblib.
 
 ---
+
 
 
 
